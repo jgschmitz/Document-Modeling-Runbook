@@ -20,6 +20,7 @@ CREATE TABLE pharmacy_networks (
     client_id VARCHAR(50) REFERENCES clients(client_id) ON DELETE CASCADE,
     pharmacy_name VARCHAR(100)
 );
+```
 3. Submitted By Table
 ```
 CREATE TABLE submitted_by (
