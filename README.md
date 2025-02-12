@@ -90,6 +90,6 @@ In MongoDB, a single query retrieves the entire document.
 }
 ```
 Key Takeaways
-SQL Normalization: The data is stored across multiple tables, linked via client_id.
-MongoDB Denormalization: The data is stored in a single document, embedding related data inside arrays and objects.
-Retrieval Efficiency: In SQL, retrieving the full onboarding record requires multiple JOIN queries, while in MongoDB, it can be fetched with a single query.
+SQL Normalization: The data is stored across multiple tables, linked via client_id. <br>
+MongoDB Denormalization: The data is stored in a single document, embedding related data inside arrays and objects. <br>
+Retrieval Efficiency: In SQL, retrieving the full onboarding record requires multiple JOIN queries, while in MongoDB, it can be fetched with a single query. <br>
