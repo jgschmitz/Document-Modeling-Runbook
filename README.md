@@ -58,7 +58,7 @@ Normalization in SQL: SQL breaks the document into separate tables, each with a 
 Denormalization in MongoDB: The JSON document stores nested objects (submittedBy, claimDetails) and arrays (pharmacyNetwork, onboardingNotes), which is better suited for document-oriented workloads.
 
 ## Query Complexity:
-In SQL, retrieving the full onboarding details for a client requires JOINs across multiple tables.
+## In SQL, retrieving the full onboarding details for a client requires JOINs across multiple tables.
 In MongoDB, a single query retrieves the entire document.
 ```
 {
