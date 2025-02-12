@@ -1,4 +1,4 @@
-## Document-Modeling-Runbook 🏗️ 📚
+## Document-Modeling-Runbook RxRocket 🚀
 SQL to MongoDB Modeling foundations
 
 SQL Schema Representation (Before Migration to MongoDB)
