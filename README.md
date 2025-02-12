@@ -52,11 +52,11 @@ CREATE TABLE onboarding_notes (
     note TEXT
 );
 ```
-##Key Differences Between SQL and MongoDB
+## Key Differences Between SQL and MongoDB
 Normalization in SQL: SQL breaks the document into separate tables, each with a foreign key reference, reducing duplication.
 Denormalization in MongoDB: The JSON document stores nested objects (submittedBy, claimDetails) and arrays (pharmacyNetwork, onboardingNotes), which is better suited for document-oriented workloads.
 
-##Query Complexity:
+## Query Complexity:
 In SQL, retrieving the full onboarding details for a client requires JOINs across multiple tables.
 In MongoDB, a single query retrieves the entire document.
 ```
@@ -90,7 +90,7 @@ In MongoDB, a single query retrieves the entire document.
     ]
 }
 ```
-##Key Takeaways
+## Key Takeaways
 SQL Normalization: The data is stored across multiple tables, linked via client_id. <br>
 MongoDB Denormalization: The data is stored in a single document, embedding related data inside arrays and objects. <br>
 Retrieval Efficiency: In SQL, retrieving the full onboarding record requires multiple JOIN queries, while in MongoDB, 
