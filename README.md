@@ -30,7 +30,7 @@ CREATE TABLE submitted_by (
     email VARCHAR(255),
     role VARCHAR(100)
 );
-
+```
 4. Claim Details Table
 Each client may have one or more claims associated with them.
 ```
