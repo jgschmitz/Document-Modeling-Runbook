@@ -59,7 +59,7 @@ Denormalization in MongoDB: The JSON document stores nested objects (submittedBy
 
 ## Query Complexity:
 ## In SQL, retrieving the full onboarding details for a client requires JOINs across multiple tables.
-In MongoDB, a single query retrieves the entire document.
+🚀 In MongoDB, a single query retrieves the entire document.
 ```
 {
     "_id": "65c1f0a3e4b0fbbd9a3e89c2",
